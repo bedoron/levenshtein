@@ -65,8 +65,3 @@ func Levenshtein(s1 string, s2 string) int {
 
 	return resultMatrix[rows - 1][cols - 1]
 }
-
-
-func  main() {
-	fmt.Println("Hello world")
-}
